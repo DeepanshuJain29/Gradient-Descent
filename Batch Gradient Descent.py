@@ -53,5 +53,5 @@ def Batch_GD(Learning_Rate, num_iterations, X, y):
     return (w, b, costs)
 
 
-# Run a function
+# Run function
 Result_BatchGD = Batch_GD(Learning_Rate=0.01, num_iterations=100000, X=X, y=y)
