@@ -49,7 +49,7 @@ def Batch_GD(Learning_Rate, num_iterations, X, y):
         # Records cost
         if i % 1000 == 0:
             costs.append(cost)
-            # print(cost)
+            print(cost)
     return (w, b, costs)
 
 
